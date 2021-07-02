@@ -10,7 +10,6 @@ var computer, computerBase;
 
 
 
-
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
 
@@ -35,10 +34,6 @@ function setup() {
     180
   );
   
-  
-
-  
-  
 }
 
 function draw() {
@@ -59,9 +54,7 @@ function draw() {
 
   computerBase.display();
   computer.display();
-
-
-
+ 
 }
 
 
